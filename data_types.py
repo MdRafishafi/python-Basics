@@ -14,7 +14,7 @@ def datatypes():
   # bool
   print(f"Data type of 'True' :  {type(True)}")
 
-  # str
+  # str are the immuatible data type
   print(f"Data type of 'rafi' : {type('rafi')}")
 
   # long str
@@ -23,9 +23,26 @@ def datatypes():
   111
   333'''
   print(f"value of long string i.e, writing in multi lines : {long_str}")
-  # list
   
+  # list
+  list_numbers = [1,'a',3.534,4,5,True]
+  print(f"list values : {list_numbers}")
+  # list slicing are creates an new copy of the list
+  print(f"list of slicing : {list_numbers[0:2]}")
+
+  # matrix are the 2D arrarys or 3D arrays 
+  matrix =[
+    [1,2,4,5],
+    [6,7,8,9],
+    [10,11,12,13]
+    ]
+  print(f"Value of Matrix : {matrix}")
+  # finding an value in matrix 'matrix_name[colum][row]'
+  print(f"Value of Matrix at row->1, colum->3 : {matrix[0][2]}")
+
   # tuple
+  
+
   # set
   # dict
   # None
