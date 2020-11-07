@@ -29,6 +29,9 @@ def datatypes():
   print(f"list values : {list_numbers}")
   # list slicing are creates an new copy of the list
   print(f"list of slicing : {list_numbers[0:2]}")
+  # list unpackig
+  a,b,c,*all,d = [1,'a',3.534,4,5,True,6,7,8,9,10]
+  print(f"\nAfter unpacking the list\na -> {a} \nb -> {b} \nc -> {c} \nall -> {all} \nd -> {d} \n ")
 
   # matrix are the 2D arrarys or 3D arrays 
   matrix =[
@@ -40,11 +43,18 @@ def datatypes():
   # finding an value in matrix 'matrix_name[colum][row]'
   print(f"Value of Matrix at row->1, colum->3 : {matrix[0][2]}")
 
-  # tuple
+  # Tuple are the immuatable
+  my_tuple = (1,2,3,4)
+  print(f"Tuple : {my_tuple}")
   
-
   # set
-  # dict
+  my_set = {1,2,3,4,5,5,5,5,6,6,7,7,1}
+  print(f"Set : {my_set}")
+
+  # dictionary
+  dictionary = {'a':1,'b':2}
+  print(f"\nDictionary : {dictionary}")
+
   # None
 
   # complex a+ib where, a,b are the number i -> j
